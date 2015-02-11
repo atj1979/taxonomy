@@ -4,22 +4,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <title>Mocha Tests</title>
-    <link rel="stylesheet" href="../bower_components/mocha/mocha.css">
+    <link rel="stylesheet" href="../lib/mocha/mocha.css"> 
 
   </head>
   <body>
     <div id="mocha"></div>
-    <script src="../bower_components/mocha/mocha.js"></script>
-    <script src="../bower_components/chai/chai.js"></script>
-    <script src="../bower_components/underscore/underscore.js"></script>
-    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="../lib/mocha/mocha.js"></script>
+    <script src="../lib/chai/chai.js"></script>
+    <script src="../lib/underscore/underscore.js"></script>
+    <script src="../lib/jquery/jquery.js"></script> 
     <script>
       mocha.setup({
         'ui': 'bdd',
         'bail': true
       });
     </script>
-    <script>window.expect = chai.expect</script>
+    <script>window.expect = chai.expect</script> 
 
     <!-- source files -->
     <script type="text/javascript" src="../src/Grub.js"></script>
